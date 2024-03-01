@@ -1,0 +1,39 @@
+h1{
+    color: blueviolet;
+}
+
+body{
+    font-family: monospace;
+    background-color: aqua;
+}
+
+form{
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    max-width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#textBox{
+    text-align: center;
+    font-size: 2em;
+    width: 50%;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: bisque;
+}
+
+#result{
+    font-size: 1.5em;
+    font-weight: bold;
+}
