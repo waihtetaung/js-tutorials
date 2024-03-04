@@ -1,0 +1,17 @@
+body{
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    margin: 0;
+}
+
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 6.5rem;
+}

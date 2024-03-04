@@ -9,11 +9,14 @@ function convert(){
         temperature = Number(textBox.value)
         temperature = (temperature - 32) * (5 / 9)
         result.textContent = temperature.toFixed(1) + "°C" 
+        toCelsius.checked = false
     }else if(toFahrenheit.checked){
         temperature = Number(textBox.value)
         temperature = temperature * 9 / 5 + 32
         result.textContent = temperature.toFixed(1) + "°F" 
+        toFahrenheit.checked = false
     }else{
         result.textContent = "Select A Unit"
     }
+
 }
